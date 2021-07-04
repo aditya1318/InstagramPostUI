@@ -201,8 +201,6 @@ class HomeScreen {
                 .padding(6.dp)
                 .aspectRatio(1f, matchHeightConstraintsFirst = true)
                 .clip(CircleShape)
-
-
         )
     }
 
