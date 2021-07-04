@@ -102,7 +102,6 @@ class HomeScreen {
                     modifier = Modifier.aspectRatio(0.3f, matchHeightConstraintsFirst = true)
                 )
             }
-
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center,
@@ -120,7 +119,6 @@ class HomeScreen {
                     color = Color.LightGray,
                     textAlign = TextAlign.Center
                 )
-
                 Text(
                     text = "Posts",
                     overflow = TextOverflow.Ellipsis,
